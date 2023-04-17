@@ -1,0 +1,7 @@
+i=float(input('Input I: '))
+f=float(input('Input f: '))
+n=float(input('Input n: '))
+s=float(input('Input s: '))  
+w=float(input('Input w: '))
+y=i-((((s*i)/f)+((20/f)**w))*(f**n))/(20**n)
+print('The answer for y is '+ str(y)+'.')

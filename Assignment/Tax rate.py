@@ -1,0 +1,5 @@
+print('Input the following data to know your tax rate')
+name=input('What is your name? ')
+salary=float(input('How much do you earn as salary? $'))
+tax_rate=str((5/100)*salary)
+print('Hello '+name+', Your tax rate is $'+tax_rate)
